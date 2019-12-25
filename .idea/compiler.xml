@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hrm-basic-generator" />
+        <module name="hrm-basic-utils" />
+        <module name="hrm-eureka" />
+        <module name="hrm-system-interface" />
+        <module name="hrm-system-service" />
+        <module name="hrm-zuul" />
+        <module name="hrm_basic_generator" />
+        <module name="hrm_eureka" />
+        <module name="hrm_system_interface" />
+        <module name="hrm_system_service" />
+        <module name="hrm_zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="hrm-basic-generator" target="1.8" />
+      <module name="hrm-basic-parent" target="1.8" />
+      <module name="hrm-basic-utils" target="1.8" />
+      <module name="hrm-eureka" target="1.8" />
+      <module name="hrm-support-parent-springcloud" target="1.8" />
+      <module name="hrm-system-interface" target="1.8" />
+      <module name="hrm-system-parent" target="1.8" />
+      <module name="hrm-system-service" target="1.8" />
+      <module name="hrm-zuul" target="1.8" />
+      <module name="hrm_basic_generator" target="1.8" />
+      <module name="hrm_basic_parent" target="1.8" />
+      <module name="hrm_basic_util" target="1.8" />
+      <module name="hrm_eureka" target="1.8" />
+      <module name="hrm_parent" target="1.8" />
+      <module name="hrm_support_parent_springcloud" target="1.8" />
+      <module name="hrm_system_interface" target="1.8" />
+      <module name="hrm_system_parent" target="1.8" />
+      <module name="hrm_system_service" target="1.8" />
+      <module name="hrm_zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
